@@ -16,7 +16,7 @@ test('Omniture call on home page', function (done) {
         .then(function () {
             //console.log("In Page");
             //console.log("Call Length - " + omnitureCalls.length);
-            expect(omnitureCalls.length).toBe(1);
+            expect(omnitureCalls.length).toBe(2);
             done();
         });
 });
